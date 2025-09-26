@@ -1,5 +1,10 @@
 import streamlit as st
 import openai
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 st.title("Stock Investment Quiz 📊")
@@ -56,7 +61,11 @@ if st.button("Generate My Investment Summary"):
     - Industries of Interest: {', '.join(industries)}
     - Horizon: {horizon}
     """
-    api_key = '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'
+    api_key = os.getenv('OPENAI_API_KEY')
+    if not api_key:
+        st.error("OpenAI API key not found. Please check your .env file.")
+        return
+    
     client = openai.OpenAI(api_key=api_key)
     response = client.chat.completions.create(
         model="gpt-4o-mini",
