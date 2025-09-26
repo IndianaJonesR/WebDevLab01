@@ -4,7 +4,7 @@ import os
 
 
 # Load environment variables from .env file
-load_dotenv()
+
 
 
 st.title("Stock Investment Quiz 📊")
@@ -64,8 +64,6 @@ if st.button("Generate My Investment Summary"):
     api_key = os.getenv('OPENAI_API_KEY')
     if not api_key:
         st.error("OpenAI API key not found. Please check your .env file.")
-        return
-    
     client = openai.OpenAI(api_key=api_key)
     response = client.chat.completions.create(
         model="gpt-4o-mini",
