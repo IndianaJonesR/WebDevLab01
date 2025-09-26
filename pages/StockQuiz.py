@@ -56,7 +56,7 @@ if st.button("Generate My Investment Summary"):
     - Industries of Interest: {', '.join(industries)}
     - Horizon: {horizon}
     """
-    api_key = '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'
+    api_key = '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'
     client = openai.OpenAI(api_key=api_key)
     response = client.chat.completions.create(
         model="gpt-4o-mini",
