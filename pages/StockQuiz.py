@@ -48,9 +48,9 @@ if horizon:
 st.progress(progress) 
 
 
-st.image("images/stocks.jpg", caption="Stock Market", use_container_width=True)
-st.image("images/finance.jpg", caption="Financial Planning", use_container_width=True)
-st.image("images/industries.jpg", caption="Different Sectors", use_container_width=True)
+st.image("Images/stocks.jpg", caption="Stock Market", use_container_width=True)
+st.image("Images/finance.jpg", caption="Financial Planning", use_container_width=True)
+st.image("Images/industries.jpg", caption="Different Sectors", use_container_width=True)
 
 
 if st.button("Generate My Investment Summary"):

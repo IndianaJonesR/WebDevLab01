@@ -39,7 +39,7 @@ experience_data = {
             "- Performed runtime memory analysis of tensor objects and validated against PyTorch source structures",
             "- Captured memory with LiME and wrote a Volatility plugin to recover model internals"
         ],
-        "images/ml_research.jpg"
+        "Images/ml_research.jpg"
     ),
     
     "Co-Founder & Lead Fullstack Developer – Acceptional (tryacceptional.com)": (
@@ -49,7 +49,7 @@ experience_data = {
             "- Developed serverless booking APIs with custom Supabase Edge Functions",
             "- Integrated Stripe payment processing with webhooks for secure transaction handling"
         ],
-        "images/acceptional.jpg"
+        "Images/acceptional.jpg"
     ),
     
     "Genesis Staff Member – Startup Exchange at Georgia Tech": (
@@ -58,7 +58,7 @@ experience_data = {
             "- Advised new builders on idea validation strategies and online engagement growth",
             "- Instructed members on leveraging AI coding tools to accelerate MVP development"
         ],
-        "images/genesis.jpg"
+        "Images/genesis.jpg"
     )
 }
 
@@ -121,7 +121,7 @@ leadership_data = {
             "- Advised new builders on idea validation strategies and methods for organic growth",
             "- Instructed members on leveraging AI coding tools to accelerate MVP development"
         ],
-        "images/genesis.jpg"
+        "Images/genesis.jpg"
     ),
 }
 
