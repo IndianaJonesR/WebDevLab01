@@ -47,12 +47,6 @@ if horizon:
 
 st.progress(progress) 
 
-
-st.image("Images/stocks.jpg", caption="Stock Market", use_container_width=True)
-st.image("Images/finance.jpg", caption="Financial Planning", use_container_width=True)
-st.image("Images/industries.jpg", caption="Different Sectors", use_container_width=True)
-
-
 if st.button("Generate My Investment Summary"):
     prompt = f"""
     Based on the following quiz results, generate a concise investment summary:
@@ -73,3 +67,11 @@ if st.button("Generate My Investment Summary"):
     summary = response.choices[0].message.content
     st.subheader("📑 Your Investment Summary")
     st.write(summary)
+
+
+st.image("Images/stocks.jpg", caption="Stock Market", use_container_width=True)
+st.image("Images/finance.jpg", caption="Financial Planning", use_container_width=True)
+st.image("Images/industries.jpg", caption="Different Sectors", use_container_width=True)
+
+
+
